@@ -1,6 +1,4 @@
-﻿//345678
-//[8,7,6,5,4,3]
-using System;
+﻿using System;
 using System.Collections.Generic;
 namespace LongArithmetic
 {

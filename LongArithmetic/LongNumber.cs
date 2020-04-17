@@ -41,10 +41,10 @@ namespace LongArithmetic
         {
             return new LongNumber(number);
         }
-        public static LongNumber operator >(LongNumber a, LongNumber b)
+        /*public static LongNumber operator >(LongNumber a, LongNumber b)
         {
             return a - b > 0;
-        }
+        }*/
         public static LongNumber operator +(LongNumber a, LongNumber b)
         {
             LongNumber bigger = a.Length > b.Length ? a : b;
